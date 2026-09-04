@@ -1,4 +1,4 @@
-import { parseMarkdown, tokenizeInline } from "./markdown";
+import { parseMarkdown, tokenizeInline } from "./markdown.ts";
 import assert from "node:assert";
 
 // tokenize: bold **

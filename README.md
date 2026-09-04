@@ -8,10 +8,10 @@ Tailwind CSS v4. Design system mengikuti [DESIGN.md](DESIGN.md)
 ## Perintah
 
 ```bash
-bun install     # install dependency
-bun run dev     # development (http://localhost:3000)
-bun run build   # build produksi
-bun run start   # jalankan hasil build
+npm install     # install dependency
+npm run dev     # development (http://localhost:3000)
+npm run build   # build produksi
+npm run start   # jalankan hasil build
 ```
 
 ## Struktur

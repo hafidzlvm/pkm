@@ -2,10 +2,12 @@
   "name": "pkm-panti-website",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "node --experimental-strip-types lib/markdown.test.ts"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",

@@ -21,16 +21,17 @@ dilihat di git commit `d13c085` kalau perlu referensi.
   hardcode key atau panggil Gemini dari client.
 - **Stack:** Next.js 16 (App Router) + React 19 + TypeScript + Tailwind CSS v4
   (konfigurasi lewat CSS `@theme` di `app/globals.css`, TANPA
-  `tailwind.config.js`) + bun.
+  `tailwind.config.js`) + node (npm).
 - **Produk & desain:** baca `PRODUCT.md` (konteks produk) dan `DESIGN.md`
   (design system Starbucks-inspired) sebelum mengerjakan apapun.
 
 ## Perintah
 
 ```bash
-bun run dev     # server development (http://localhost:3000)
-bun run build   # build produksi — WAJIB lolos sebelum selesai
-bun run start   # jalankan hasil build
+npm run dev     # server development (http://localhost:3000)
+npm run build   # build produksi — WAJIB lolos sebelum selesai
+npm run start   # jalankan hasil build
+npm run test    # tes mandiri markdown parser (lib/markdown.test.ts)
 ```
 
 ## Sumber Kebenaran Data
@@ -147,7 +148,7 @@ Jangan mengubah konfigurasi network `solusi-khatulistiwa-digital`.
   arbitrer kecuali tidak ada token (contoh sah: `tracking-[-0.16px]`).
   CATATAN: kurung `()` hanya untuk CSS var — `tracking-(0.1em)` SALAH,
   pakai token `tracking-loose` atau arbitrary `tracking-[0.1em]`.
-- Setelah edit file TS/TSX, jalankan `bunx tsc --noEmit` & `bun run build`.
+- Setelah edit file TS/TSX, jalankan `npx tsc --noEmit` & `npm run build`.
 
 ## Pelajaran dari Template Lama (Kenapa Refactor Ini Dilakukan)
 
