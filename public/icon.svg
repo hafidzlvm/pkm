@@ -1,0 +1,54 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="0" fill="#050505"/>
+  
+  <!-- Grid Pattern -->
+  <defs>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(250,218,56,0.2)" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="512" height="512" fill="url(#grid)"/>
+  
+  <!-- Outer Glow Rings -->
+  <circle cx="256" cy="256" r="240" fill="none" stroke="#fada38" stroke-width="8" opacity="0.2"/>
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#fada38" stroke-width="12" opacity="0.4"/>
+  
+  <!-- Main Pokeball Circle - Much Larger -->
+  <circle cx="256" cy="256" r="200" fill="none" stroke="#fada38" stroke-width="24"/>
+  
+  <!-- Vertical Divider - Thicker -->
+  <line x1="256" y1="56" x2="256" y2="456" stroke="#fada38" stroke-width="24"/>
+  
+  <!-- Top Half Fill -->
+  <path d="M 56 256 A 200 200 0 0 1 456 256 L 256 56 Z" fill="#fada38" opacity="0.15"/>
+  
+  <!-- Center Circle Outer - Larger -->
+  <circle cx="256" cy="256" r="90" fill="#050505" stroke="#fada38" stroke-width="20"/>
+  
+  <!-- Center Circle Inner - Larger -->
+  <circle cx="256" cy="256" r="65" fill="#fada38"/>
+  
+  <!-- Center Dot - Larger -->
+  <circle cx="256" cy="256" r="30" fill="#050505"/>
+  
+  <!-- Inner Glow -->
+  <circle cx="256" cy="256" r="65" fill="none" stroke="#fada38" stroke-width="4" opacity="0.5"/>
+  
+  <!-- PKMN Text - Much Larger and Bolder -->
+  <text x="256" y="420" font-family="Arial, sans-serif" font-size="72" font-weight="900" fill="#fada38" text-anchor="middle" letter-spacing="10" stroke="#050505" stroke-width="2">PKMN</text>
+  
+  <!-- Accent Lines - Thicker and Longer -->
+  <line x1="80" y1="256" x2="160" y2="256" stroke="#fada38" stroke-width="12" opacity="0.9"/>
+  <line x1="352" y1="256" x2="432" y2="256" stroke="#fada38" stroke-width="12" opacity="0.9"/>
+  
+  <!-- Corner Accents - Larger -->
+  <rect x="30" y="30" width="30" height="30" fill="#fada38" opacity="0.7"/>
+  <rect x="452" y="30" width="30" height="30" fill="#fada38" opacity="0.7"/>
+  <rect x="30" y="452" width="30" height="30" fill="#fada38" opacity="0.7"/>
+  <rect x="452" y="452" width="30" height="30" fill="#fada38" opacity="0.7"/>
+  
+  <!-- Side Accents -->
+  <rect x="30" y="241" width="20" height="30" fill="#fada38" opacity="0.6"/>
+  <rect x="462" y="241" width="20" height="30" fill="#fada38" opacity="0.6"/>
+</svg>

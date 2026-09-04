@@ -1,0 +1,44 @@
+/* ═══════════════════════════════════════════════════════════════
+   $5 BILLION WEBSITE - PREMIUM SCSS MODULE
+   ═══════════════════════════════════════════════════════════════ */
+
+// This file is preserved for any component-specific styles
+// Most styles have been moved to globals.css for consistency
+
+.dialogContent {
+  background: linear-gradient(
+    135deg,
+    rgba(26, 26, 26, 0.95) 0%,
+    rgba(10, 10, 10, 0.98) 100%
+  );
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  
+  &:focus {
+    outline: none;
+  }
+}
+
+.hero {
+  position: relative;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: radial-gradient(
+      ellipse at 50% 50%,
+      rgba(212, 175, 55, 0.05) 0%,
+      transparent 70%
+    );
+  }
+}
+
+.expressIcon {
+  background: linear-gradient(
+    135deg,
+    rgba(26, 26, 26, 0.8) 0%,
+    rgba(10, 10, 10, 0.9) 100%
+  );
+}

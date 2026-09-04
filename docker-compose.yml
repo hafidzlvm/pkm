@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  hafidzlvm-pokedex-nginx:
+    image: nginx:alpine
+    container_name: hafidzlvm-pokedex-nginx
+    restart: unless-stopped 
+    environment:
+      - VIRTUAL_HOST=${PORTFOLIO_DOMAIN}
+      - VIRTUAL_PORT=80
+      - LETSENCRYPT_HOST=${PORTFOLIO_DOMAIN}
+      - LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL}
+      - CORS_ALLOWED_DOMAIN=${CORS_ALLOWED_DOMAIN}
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - hafidzlvm-pokedex-app
+    networks:
+      - solusi-digital-khatulistiwa
+
+  hafidzlvm-pokedex-app:
+    build:
+      # context: /stack/hafidzlvm/pokedex.portofolio
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: hafidzlvm-pokedex-app
+    restart: unless-stopped
+    # ports:
+    #   - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_TELEMETRY_DISABLED=1
+    healthcheck:
+      test: ["CMD", "bun", "-e", "require('http').get('http://localhost:3000', (r) => {process.exit(r.statusCode === 200 ? 0 : 1)})"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - solusi-digital-khatulistiwa
+    labels:
+      - "com.docker.compose.project=pokedex"
+      - "com.docker.compose.service=pokedex"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'     # Maksimal gunakan 50% dari 1 core
+          memory: 512M
+
+networks:
+  solusi-digital-khatulistiwa:
+    external: true
+
