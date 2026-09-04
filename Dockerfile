@@ -14,6 +14,8 @@ COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 ENV NEXT_TELEMETRY_DISABLED=1
 ENV NODE_ENV=production
+# Aktifkan output standalone (khusus Docker; nonaktif di Vercel)
+ENV OUTPUT_STANDALONE=1
 # Dibutuhkan saat build agar route /api/chat tidak di-prerender gagal
 ARG GEMINI_API_KEY
 ENV GEMINI_API_KEY=${GEMINI_API_KEY}

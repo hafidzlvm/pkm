@@ -136,7 +136,10 @@ docs/
 ### 5. Deploy
 
 Docker + nginx + docker-compose dikonfigurasi untuk `pkm-panti-*`.
-Domain via env `PKM_DOMAIN` (lihat `.env.example`). Output Next standalone.
+Domain via env `PKM_DOMAIN` (lihat `.env.example`). Output Next standalone
+dikondisikan env `OUTPUT_STANDALONE=1` (diset di Dockerfile) — jangan
+menyalakan `output: 'standalone'` permanen di `next.config.ts`, karena
+memecah build Vercel (ENOENT `next-server.js.nft.json`).
 Jangan mengubah konfigurasi network `solusi-khatulistiwa-digital`.
 
 ### 6. Kebersihan code
