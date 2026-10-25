@@ -21,7 +21,8 @@ export const metadata: Metadata = {
   description:
     "SAYAMA — LKSA Asrama Yatim & Dhu'afa di Tangerang Selatan. Pengasuhan, pendidikan, santunan, dan layanan ZISWAF yang amanah. Mari kita wujudkan harapan dan cita-cita mereka.",
   icons: {
-    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    icon: [{ url: "/logo.jpeg", type: "image/jpeg" }],
+    apple: [{ url: "/logo.jpeg", type: "image/jpeg" }],
   },
   openGraph: {
     type: "website",

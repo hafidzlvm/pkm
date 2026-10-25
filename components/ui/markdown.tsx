@@ -19,7 +19,7 @@ function inlineNodes(text: string, keyBase: string) {
             href={t.text}
             target="_blank"
             rel="noopener noreferrer"
-            className="underline decoration-(--color-green-accent) underline-offset-2"
+            className="underline decoration-(--color-brand-accent) underline-offset-2"
           >
             {t.text}
           </a>

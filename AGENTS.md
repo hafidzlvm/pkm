@@ -54,11 +54,12 @@ Ringkasan token yang sudah ada di `app/globals.css`:
 
 - **Canvas halaman = cream `#f2f0eb`** (`bg-(--color-canvas-warm)`), BUKAN
   putih murni. Card yang berwarna putih, bukan halaman.
-- **4 tier hijau, masing-masing punya peran — jangan dicampur:**
-  - `green-starbucks #006241` → judul/heading (H1).
-  - `green-accent #00754A` → tombol CTA terisi, ikon Frap.
-  - `green-house #1E3932` → band gelap (section unggulan, footer, surface gelap).
-  - `green-uplift #2b5148` → surface kartu program stacking.
+- **4 tier biru royal (dari logo SAYAMA), masing-masing punya peran — jangan dicampur:**
+  - `brand #1e3a9e` → judul/heading (H1), brand signal.
+  - `brand-accent #1d4ed8` → tombol CTA terisi, ikon Frap.
+  - `brand-deep #101c4e` → band gelap (section unggulan, footer, surface gelap).
+  - `brand-mid #1e2f6b` → surface kartu program stacking.
+  - `brand-light #dbe7f7` → tint/wash biru muda.
 - **Gold `#cba258`** HANYA untuk momen sakral/penghargaan (quote Al-Qur'an,
   apresiasi donatur, seal). Dilarang jadi aksen umum.
 - **Semua tombol pill `radius 50px`** pakai komponen `Button`
@@ -75,8 +76,8 @@ Ringkasan token yang sudah ada di `app/globals.css`:
   baru tanpa izin.
 - **Font:** Inter (substitusi SoDoSans) + Lora (substitusi serif kontekstual —
   hanya untuk quote kitab/hadits via utility `scripture`).
-- **Ritme halaman (§1 DESIGN.md):** cream hero → putih → band House Green →
-  cream → putih → footer House Green.
+- **Ritme halaman (§1 DESIGN.md):** cream hero → putih → band brand-deep →
+  cream → putih → footer brand-deep.
 
 ### 2. Motion (tanpa library animasi)
 

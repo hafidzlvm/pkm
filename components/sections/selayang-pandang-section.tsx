@@ -63,7 +63,7 @@ export function SelayangPandangSection() {
           <Card className="border border-(--color-gold)/30 bg-(--color-gold-lightest) shadow-card">
             <CardContent className="space-y-3">
               <Quote className="size-7 text-(--color-gold)" aria-hidden />
-              <p className="scripture text-base text-(--color-rewards-green)">
+              <p className="scripture text-base text-(--color-quote-ink)">
                 &ldquo;Tahukah kamu orang-orang yang mendustakan agama? Yaitu
                 orang-orang yang menghardik anak yatim, dan tidak mendorong untuk
                 memberi makan anak yatim.&rdquo;
@@ -90,8 +90,8 @@ export function SelayangPandangSection() {
               aria-pressed={tab === id}
               className={`press rounded-(--radius-pill) border px-5 py-2 text-sm font-semibold cursor-pointer ${
                 tab === id
-                  ? "border-(--color-green-accent) bg-(--color-green-accent) text-white"
-                  : "border-(--color-input-border) bg-white text-(--color-text-black) hover:border-(--color-green-accent)"
+                  ? "border-(--color-brand-accent) bg-(--color-brand-accent) text-white"
+                  : "border-(--color-input-border) bg-white text-(--color-text-black) hover:border-(--color-brand-accent)"
               }`}
             >
               {label}
@@ -102,7 +102,7 @@ export function SelayangPandangSection() {
         {tab === "visi-misi" ? (
           <div className="grid gap-6 lg:grid-cols-2">
             {/* Visi + seal */}
-            <Card className="on-dark relative overflow-hidden bg-(--color-green-house) shadow-card">
+            <Card className="on-dark relative overflow-hidden bg-(--color-brand-deep) shadow-card">
               <CardContent className="space-y-4">
                 <h3 className="text-sm font-semibold tracking-(--tracking-loose) uppercase text-white">
                   Visi
@@ -137,7 +137,7 @@ export function SelayangPandangSection() {
               {MISI.map((m, i) => (
                 <Card key={i} className="shadow-card">
                   <CardContent className="flex items-start gap-4">
-                    <span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-(--color-green-light) text-sm font-bold text-(--color-green-starbucks)">
+                    <span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-(--color-brand-light) text-sm font-bold text-(--color-brand)">
                       {i + 1}
                     </span>
                     <p className="leading-relaxed text-(--color-text-black)">{m}</p>
@@ -151,7 +151,7 @@ export function SelayangPandangSection() {
             {DASAR.map((d) => (
               <Card key={d.label} className="shadow-card">
                 <CardContent className="flex items-start gap-3">
-                  <Scale className="mt-0.5 size-6 shrink-0 text-(--color-green-accent)" aria-hidden />
+                  <Scale className="mt-0.5 size-6 shrink-0 text-(--color-brand-accent)" aria-hidden />
                   <div>
                     <p className="font-semibold">{d.label}</p>
                     <p className="text-sm leading-relaxed text-(--color-text-black-soft)">

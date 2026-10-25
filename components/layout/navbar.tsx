@@ -1,8 +1,9 @@
 "use client";
 
 import * as React from "react";
+import Image from "next/image";
 import Link from "next/link";
-import { Menu, X, HeartHandshake, MessageCircle } from "lucide-react";
+import { Menu, X, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { SAYAMA, waLink, WA_MESSAGES } from "@/lib/sayama";
@@ -28,11 +29,16 @@ export function Navbar() {
           onClick={() => setOpen(false)}
           aria-label="Beranda Yayasan Sahabat Yatim Mandiri"
         >
-          <span className="flex size-10 items-center justify-center rounded-full bg-(--color-green-starbucks)">
-            <HeartHandshake className="size-5 text-white" aria-hidden />
-          </span>
+          <Image
+            src="/logo.jpeg"
+            alt={`Logo ${SAYAMA.name}`}
+            width={48}
+            height={48}
+            preload
+            className="size-10 shrink-0 object-contain md:size-12"
+          />
           <span className="flex flex-col leading-none">
-            <span className="text-lg font-bold tracking-[-0.16px] text-(--color-green-starbucks)">
+            <span className="text-lg font-bold tracking-[-0.16px] text-(--color-brand)">
               {SAYAMA.short}
             </span>
             <span className="text-[11px] text-(--color-text-black-soft)">
@@ -47,7 +53,7 @@ export function Navbar() {
             <li key={link.href}>
               <Link
                 href={link.href}
-                className="text-(--color-text-black) underline-offset-4 hover:text-(--color-green-accent) hover:underline"
+                className="text-(--color-text-black) underline-offset-4 hover:text-(--color-brand-accent) hover:underline"
               >
                 {link.label}
               </Link>

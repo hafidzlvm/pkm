@@ -1,11 +1,32 @@
 "use client";
 
-import * as React from "react";
 import { HandHeart, Truck, BadgeCheck, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Reveal } from "@/components/motion/reveal";
 import { SAYAMA, waLink, WA_MESSAGES } from "@/lib/sayama";
+
+/**
+ * Koordinat medallion dihitung sekali di module scope lalu dibulatkan.
+ * Math.cos/Math.sin bisa menghasilkan digit terakhir yang berbeda antara
+ * engine server (Node) dan browser, sehingga nilai mentah memicu hydration
+ * mismatch. Pembulatan 3 desimal membuat nilainya identik di kedua sisi.
+ */
+const MEDALLION_DOTS = Array.from({ length: 12 }, (_, i) => {
+  const angle = (i * Math.PI) / 6;
+  return {
+    cx: Number((100 + 68 * Math.cos(angle)).toFixed(3)),
+    cy: Number((100 + 68 * Math.sin(angle)).toFixed(3)),
+  };
+});
+
+const MEDALLION_DIAMONDS = Array.from({ length: 8 }, (_, i) => {
+  const angle = (i * Math.PI) / 4;
+  return {
+    x: Number((100 + 88 * Math.cos(angle)).toFixed(3)),
+    y: Number((100 + 88 * Math.sin(angle)).toFixed(3)),
+  };
+});
 
 /**
  * Hero — canvas cream, medallion pola islami, heading blur-rise (Reveal),
@@ -21,32 +42,24 @@ export function HeroSection() {
         className="spin-slow pointer-events-none absolute -top-24 -right-24 size-[26rem] opacity-60 md:size-[34rem] lg:-right-10"
       >
         <svg viewBox="0 0 200 200" className="size-full" fill="none">
-          <circle cx="100" cy="100" r="98" stroke="#006241" strokeOpacity="0.12" />
-          <circle cx="100" cy="100" r="78" stroke="#006241" strokeOpacity="0.1" />
+          <circle cx="100" cy="100" r="98" stroke="#1e3a9e" strokeOpacity="0.12" />
+          <circle cx="100" cy="100" r="78" stroke="#1e3a9e" strokeOpacity="0.1" />
           <circle cx="100" cy="100" r="58" stroke="#cba258" strokeOpacity="0.18" />
-          {Array.from({ length: 8 }, (_, i) => {
-            const a = (i * Math.PI) / 4;
-            const x = 100 + 88 * Math.cos(a);
-            const y = 100 + 88 * Math.sin(a);
-            return (
-              <rect
-                key={i}
-                x={x - 7}
-                y={y - 7}
-                width="14"
-                height="14"
-                transform={`rotate(45 ${x} ${y})`}
-                stroke="#006241"
-                strokeOpacity="0.14"
-              />
-            );
-          })}
-          {Array.from({ length: 12 }, (_, i) => {
-            const a = (i * Math.PI) / 6;
-            const x = 100 + 68 * Math.cos(a);
-            const y = 100 + 68 * Math.sin(a);
-            return <circle key={i} cx={x} cy={y} r="2.5" fill="#cba258" fillOpacity="0.25" />;
-          })}
+          {MEDALLION_DIAMONDS.map((d, i) => (
+            <rect
+              key={i}
+              x={d.x - 7}
+              y={d.y - 7}
+              width="14"
+              height="14"
+              transform={`rotate(45 ${d.x} ${d.y})`}
+              stroke="#1e3a9e"
+              strokeOpacity="0.14"
+            />
+          ))}
+          {MEDALLION_DOTS.map((d, i) => (
+            <circle key={i} cx={d.cx} cy={d.cy} r="2.5" fill="#cba258" fillOpacity="0.25" />
+          ))}
         </svg>
       </div>
 
@@ -94,7 +107,7 @@ export function HeroSection() {
           <Reveal delay={500} className="float-y">
             <Card className="shadow-card">
               <CardContent className="flex items-center gap-4">
-                <ShieldCheck className="size-9 shrink-0 text-(--color-green-accent)" aria-hidden />
+                <ShieldCheck className="size-9 shrink-0 text-(--color-brand-accent)" aria-hidden />
                 <div>
                   <p className="text-sm font-semibold">{SAYAMA.legal.skLabel}</p>
                   <p className="text-sm text-(--color-text-black-soft)">
@@ -107,7 +120,7 @@ export function HeroSection() {
           <Reveal delay={700} className="float-y-slow">
             <Card className="shadow-card">
               <CardContent className="flex items-center gap-4">
-                <BadgeCheck className="size-9 shrink-0 text-(--color-green-accent)" aria-hidden />
+                <BadgeCheck className="size-9 shrink-0 text-(--color-brand-accent)" aria-hidden />
                 <div>
                   <p className="text-sm font-semibold">NPWP Yayasan</p>
                   <p className="text-sm text-(--color-text-black-soft)">{SAYAMA.legal.npwp}</p>

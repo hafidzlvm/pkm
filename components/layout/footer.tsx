@@ -1,18 +1,25 @@
+import Image from "next/image";
 import Link from "next/link";
-import { HeartHandshake, Facebook, MapPin } from "lucide-react";
+import { Facebook, MapPin } from "lucide-react";
 import { SAYAMA, ASRAMA } from "@/lib/sayama";
 
-/** Footer House Green (DESIGN.md §1) — bookend gelap + kredit PKM. */
+/** Footer brand deep (DESIGN.md §1) — bookend gelap + kredit PKM. */
 export function Footer() {
   return (
-    <footer className="on-dark bg-(--color-green-house)">
+    <footer className="on-dark bg-(--color-brand-deep)">
       <div className="container-pkm py-10 md:py-16">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           {/* Identitas */}
           <div className="space-y-3">
             <p className="flex items-center gap-2">
-              <span className="flex size-10 items-center justify-center rounded-full bg-white/10">
-                <HeartHandshake className="size-5 text-(--color-gold)" aria-hidden />
+              <span className="flex size-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-white p-0.5">
+                <Image
+                  src="/logo.jpeg"
+                  alt=""
+                  width={40}
+                  height={40}
+                  className="size-full object-contain"
+                />
               </span>
               <span className="text-lg font-bold tracking-[-0.16px] text-white">
                 {SAYAMA.short}

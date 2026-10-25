@@ -54,8 +54,8 @@ export function DonasiSection() {
               onClick={() => setTab(t.id)}
               className={`press cursor-pointer rounded-(--radius-pill) border px-5 py-2 text-sm font-semibold ${
                 tab === t.id
-                  ? "border-(--color-green-accent) bg-(--color-green-accent) text-white"
-                  : "border-(--color-input-border) bg-white text-(--color-text-black) hover:border-(--color-green-accent)"
+                  ? "border-(--color-brand-accent) bg-(--color-brand-accent) text-white"
+                  : "border-(--color-input-border) bg-white text-(--color-text-black) hover:border-(--color-brand-accent)"
               }`}
             >
               {t.label}
@@ -71,13 +71,13 @@ export function DonasiSection() {
               <Card key={b.bank} className="shadow-card">
                 <CardContent className="space-y-3">
                   <div className="flex items-center gap-3">
-                    <Landmark className="size-8 text-(--color-green-accent)" aria-hidden />
+                    <Landmark className="size-8 text-(--color-brand-accent)" aria-hidden />
                     <div>
                       <p className="text-lg font-semibold">{b.bank}</p>
                       <p className="text-xs text-(--color-text-black-soft)">{b.bankLong}</p>
                     </div>
                   </div>
-                  <p className="text-2xl font-bold tracking-tight text-(--color-green-starbucks)">
+                  <p className="text-2xl font-bold tracking-tight text-(--color-brand)">
                     {b.account}
                   </p>
                   <p className="text-sm text-(--color-text-black-soft)">a.n. {b.holder}</p>
@@ -105,9 +105,9 @@ export function DonasiSection() {
           </div>
 
           {/* Jemput donasi */}
-          <Card className="on-dark bg-(--color-green-house) shadow-card">
+          <Card className="on-dark bg-(--color-brand-deep) shadow-card">
             <CardContent className="flex h-full flex-col gap-4">
-              <span className="flex size-12 items-center justify-center rounded-full bg-(--color-green-accent)">
+              <span className="flex size-12 items-center justify-center rounded-full bg-(--color-brand-accent)">
                 <Truck className="size-6 text-white" aria-hidden />
               </span>
               <div>

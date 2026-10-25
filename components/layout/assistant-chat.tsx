@@ -95,7 +95,7 @@ export function AssistantChat() {
         onClick={() => setOpen((v) => !v)}
         aria-label={open ? "Tutup asisten SAYAMA" : "Buka asisten SAYAMA"}
         aria-expanded={open}
-        className="press fixed right-4 bottom-4 z-50 flex size-14 cursor-pointer items-center justify-center rounded-full bg-(--color-green-accent) text-white shadow-frap hover:bg-(--color-green-starbucks) md:right-6 md:bottom-6"
+        className="press fixed right-4 bottom-4 z-50 flex size-14 cursor-pointer items-center justify-center rounded-full bg-(--color-brand-accent) text-white shadow-frap hover:bg-(--color-brand) md:right-6 md:bottom-6"
       >
         {open ? (
           <X className="size-6" aria-hidden />
@@ -117,9 +117,9 @@ export function AssistantChat() {
         aria-label="Asisten SAYAMA"
       >
         {/* Header */}
-        <div className="on-dark bg-(--color-green-house) p-4">
+        <div className="on-dark bg-(--color-brand-deep) p-4">
           <div className="flex items-center gap-3">
-            <span className="flex size-10 items-center justify-center rounded-full bg-(--color-green-accent)">
+            <span className="flex size-10 items-center justify-center rounded-full bg-(--color-brand-accent)">
               <Bot className="size-5 text-white" aria-hidden />
             </span>
             <div className="flex-1">
@@ -145,7 +145,7 @@ export function AssistantChat() {
               )}
             >
               {m.role === "model" && (
-                <span className="flex size-7 shrink-0 items-center justify-center rounded-full bg-(--color-green-starbucks)">
+                <span className="flex size-7 shrink-0 items-center justify-center rounded-full bg-(--color-brand)">
                   <Bot className="size-4 text-white" aria-hidden />
                 </span>
               )}
@@ -165,7 +165,7 @@ export function AssistantChat() {
               ) : (
                 <p
                   className={cn(
-                    "max-w-[85%] rounded-(--radius-card) bg-(--color-green-accent) px-3.5 py-2.5 text-sm leading-normal text-white",
+                    "max-w-[85%] rounded-(--radius-card) bg-(--color-brand-accent) px-3.5 py-2.5 text-sm leading-normal text-white",
                     "whitespace-pre-wrap"
                   )}
                 >
@@ -189,7 +189,7 @@ export function AssistantChat() {
                 key={p}
                 type="button"
                 onClick={() => send(p)}
-                className="press cursor-pointer rounded-(--radius-pill) border-1 border-(--color-input-border) bg-white px-3 py-1.5 text-xs font-semibold text-(--color-text-black) hover:border-(--color-green-accent)"
+                className="press cursor-pointer rounded-(--radius-pill) border-1 border-(--color-input-border) bg-white px-3 py-1.5 text-xs font-semibold text-(--color-text-black) hover:border-(--color-brand-accent)"
               >
                 {p}
               </button>
@@ -202,7 +202,7 @@ export function AssistantChat() {
           href={waLink(SAYAMA.contacts.whatsapp[0].intl, WA_MESSAGES.info)}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 border-t border-(--color-hairline) bg-white py-2.5 text-xs font-semibold text-(--color-green-accent) hover:bg-(--color-ceramic)"
+          className="flex items-center justify-center gap-2 border-t border-(--color-hairline) bg-white py-2.5 text-xs font-semibold text-(--color-brand-accent) hover:bg-(--color-ceramic)"
         >
           <MessageCircle className="size-4" aria-hidden />
           Ngobrol dengan pengurus via WhatsApp
@@ -222,7 +222,7 @@ export function AssistantChat() {
             onChange={(e) => setInput(e.target.value)}
             placeholder="Tulis pertanyaan…"
             aria-label="Pertanyaan untuk asisten"
-            className="min-w-0 flex-1 rounded-(--radius-pill) border-1 border-(--color-input-border) px-4 py-2.5 text-sm text-(--color-text-black) placeholder:text-(--color-text-black-soft) focus:border-(--color-green-accent) focus:outline-none"
+            className="min-w-0 flex-1 rounded-(--radius-pill) border-1 border-(--color-input-border) px-4 py-2.5 text-sm text-(--color-text-black) placeholder:text-(--color-text-black-soft) focus:border-(--color-brand-accent) focus:outline-none"
             maxLength={500}
             disabled={busy}
           />
@@ -230,7 +230,7 @@ export function AssistantChat() {
             type="submit"
             disabled={busy || !input.trim()}
             aria-label="Kirim pertanyaan"
-            className="press flex size-10 shrink-0 cursor-pointer items-center justify-center rounded-full bg-(--color-green-accent) text-white disabled:opacity-40"
+            className="press flex size-10 shrink-0 cursor-pointer items-center justify-center rounded-full bg-(--color-brand-accent) text-white disabled:opacity-40"
           >
             <SendHorizonal className="size-5" aria-hidden />
           </button>

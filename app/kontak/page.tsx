@@ -51,7 +51,7 @@ export default function KontakPage() {
             {CARDS.map((c) => (
               <Card key={c.title} className="shadow-card">
                 <CardContent className="space-y-2">
-                  <c.icon className="size-7 text-(--color-green-accent)" aria-hidden />
+                  <c.icon className="size-7 text-(--color-brand-accent)" aria-hidden />
                   <h2 className="text-lg font-semibold tracking-[-0.16px]">{c.title}</h2>
                   {c.lines.map((l) => (
                     <p key={l} className="text-sm leading-relaxed text-(--color-text-black-soft)">
@@ -69,14 +69,14 @@ export default function KontakPage() {
               {ASRAMA.map((a) => (
                 <Card key={a.id} className="shadow-card">
                   <CardContent className="flex items-start gap-3">
-                    <MapPin className="mt-0.5 size-6 shrink-0 text-(--color-green-accent)" aria-hidden />
+                    <MapPin className="mt-0.5 size-6 shrink-0 text-(--color-brand-accent)" aria-hidden />
                     <div className="space-y-1">
                       <h3 className="font-semibold">{a.label}</h3>
                       <p className="text-sm leading-relaxed text-(--color-text-black-soft)">
                         {a.address}
                       </p>
                       <a
-                        className="inline-block text-sm font-semibold text-(--color-green-accent) underline-offset-4 hover:underline"
+                        className="inline-block text-sm font-semibold text-(--color-brand-accent) underline-offset-4 hover:underline"
                         href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(a.address)}`}
                         target="_blank"
                         rel="noopener noreferrer"

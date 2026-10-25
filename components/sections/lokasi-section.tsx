@@ -32,8 +32,8 @@ export function LokasiSection() {
           {ASRAMA.map((a) => (
             <Card key={a.id} className="group shadow-card">
               <CardContent className="flex items-start gap-4">
-                <span className="flex size-12 shrink-0 items-center justify-center rounded-full bg-(--color-green-light) transition-colors group-hover:bg-(--color-green-accent)">
-                  <MapPin className="size-6 text-(--color-green-starbucks) transition-colors group-hover:text-white" aria-hidden />
+                <span className="flex size-12 shrink-0 items-center justify-center rounded-full bg-(--color-brand-light) transition-colors group-hover:bg-(--color-brand-accent)">
+                  <MapPin className="size-6 text-(--color-brand) transition-colors group-hover:text-white" aria-hidden />
                 </span>
                 <div className="space-y-1">
                   <h3 className="text-lg font-semibold tracking-[-0.16px]">{a.label}</h3>
@@ -41,7 +41,7 @@ export function LokasiSection() {
                     {a.address}
                   </p>
                   <a
-                    className="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-(--color-green-accent) underline-offset-4 hover:underline"
+                    className="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-(--color-brand-accent) underline-offset-4 hover:underline"
                     href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(a.address)}`}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -61,9 +61,9 @@ export function LokasiSection() {
             <a
               key={wa.intl}
               href={`tel:+${wa.intl}`}
-              className="press inline-flex items-center gap-2 rounded-(--radius-pill) border-1 border-(--color-input-border) bg-white px-5 py-2.5 text-sm font-semibold text-(--color-text-black) hover:border-(--color-green-accent)"
+              className="press inline-flex items-center gap-2 rounded-(--radius-pill) border-1 border-(--color-input-border) bg-white px-5 py-2.5 text-sm font-semibold text-(--color-text-black) hover:border-(--color-brand-accent)"
             >
-              <Phone className="size-4 text-(--color-green-accent)" aria-hidden />
+              <Phone className="size-4 text-(--color-brand-accent)" aria-hidden />
               {wa.value}
             </a>
           ))}
@@ -92,7 +92,7 @@ export function LokasiSection() {
           <Facebook className="size-4" aria-hidden />
           Ikuti kami di Facebook:{" "}
           <a
-            className="font-semibold text-(--color-green-accent) underline-offset-4 hover:underline"
+            className="font-semibold text-(--color-brand-accent) underline-offset-4 hover:underline"
             href={SAYAMA.contacts.facebookUrl}
             target="_blank"
             rel="noopener noreferrer"

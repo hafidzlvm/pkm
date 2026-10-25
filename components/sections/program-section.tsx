@@ -54,11 +54,11 @@ const PILLAR_3 = [
 
 /**
  * Program unggulan — 3 kartu stacking sticky-scroll di atas band
- * House Green. Kartu berikutnya menimpa kartu sebelumnya.
+ * brand deep. Kartu berikutnya menimpa kartu sebelumnya.
  */
 export function ProgramSection() {
   return (
-    <section id="program" className="on-dark bg-(--color-green-house) py-16 md:py-24">
+    <section id="program" className="on-dark bg-(--color-brand-deep) py-16 md:py-24">
       <div className="container-pkm">
         <div className="max-w-3xl space-y-4">
           <h2 className="text-3xl tracking-[-0.16px] md:text-4xl">Pilar Program Unggulan</h2>
@@ -146,9 +146,9 @@ function StackCard({
 }) {
   return (
     <article className="stack-item">
-      <div className="rounded-(--radius-card) bg-(--color-green-uplift) p-6 shadow-card md:p-10">
+      <div className="rounded-(--radius-card) bg-(--color-brand-mid) p-6 shadow-card md:p-10">
         <div className="flex flex-wrap items-center gap-4">
-          <span className="flex size-14 items-center justify-center rounded-full bg-(--color-green-accent)">
+          <span className="flex size-14 items-center justify-center rounded-full bg-(--color-brand-accent)">
             {icon}
           </span>
           <div>
@@ -194,7 +194,7 @@ function CardMandiri() {
             {INDIKATOR_MANDIRI.map((item, i) => (
               <li
                 key={item}
-                className="flex items-center gap-2 rounded-(--radius-field) bg-(--color-green-house) px-3 py-2 text-sm text-white"
+                className="flex items-center gap-2 rounded-(--radius-field) bg-(--color-brand-deep) px-3 py-2 text-sm text-white"
               >
                 <span className="text-xs font-bold text-(--color-gold)">
                   {String(i + 1).padStart(2, "0")}

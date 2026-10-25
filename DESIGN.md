@@ -1,5 +1,14 @@
 # Design System Inspired by Starbucks
 
+> **Implementation override (SAYAMA):** palet hijau Starbucks di dokumen ini
+> **diganti** dengan royal blue yang diturunkan dari logo yayasan
+> (`public/logo.jpeg`). Token aktual di `app/globals.css`:
+> `--color-brand #1e3a9e` (heading), `--color-brand-accent #1d4ed8` (CTA),
+> `--color-brand-deep #101c4e` (band gelap/footer), `--color-brand-mid #1e2f6b`
+> (kartu stacking), `--color-brand-light #dbe7f7` (tint). Gold `#cba258` tetap
+> khusus momen sakral. Struktur, tipografi, radius, shadow, dan motion tetap
+> mengikuti dokumen ini.
+
 ## 1. Visual Theme & Atmosphere
 
 Starbucks' design system is a **warm, confident retail flagship** wearing the green of their storefront apron across every surface. The canvas alternates between a neutral-warm cream (`#f2f0eb`) and a ceramic off-white (`#edebe9`) — colors that reference actual store materials: the paper napkins, the café walls, the wood finishes — while the signature **Starbucks Green** (`#006241`) anchors the brand moment on hero bands, CTAs, and the Rewards experience. The greens come in four calibrated shades (Starbucks, Accent, House, Uplift) each mapped to a specific surface role, and gold (`#cba258`) appears only around Rewards-status ceremony — not as a general accent.

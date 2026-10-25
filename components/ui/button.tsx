@@ -8,25 +8,25 @@ import { cn } from "@/lib/utils";
  * Radius 50px universal, active = scale(0.95), transition 0.2s ease.
  */
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 rounded-(--radius-pill) border font-semibold whitespace-nowrap transition-all duration-200 ease-out cursor-pointer hover:opacity-90 active:scale-95 disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--color-green-accent)",
+  "inline-flex items-center justify-center gap-2 rounded-(--radius-pill) border font-semibold whitespace-nowrap transition-all duration-200 ease-out cursor-pointer hover:opacity-90 active:scale-95 disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--color-brand-accent)",
   {
     variants: {
       variant: {
-        /** Primary filled — Green Accent bg, putih */
+        /** Primary filled — brand accent bg, putih */
         primary:
-          "bg-(--color-green-accent) text-white border-(--color-green-accent)",
-        /** Primary outlined — Green Accent text */
+          "bg-(--color-brand-accent) text-white border-(--color-brand-accent)",
+        /** Primary outlined — brand accent text */
         outline:
-          "bg-transparent text-(--color-green-accent) border-(--color-green-accent)",
+          "bg-transparent text-(--color-brand-accent) border-(--color-brand-accent)",
         /** Hitam — momen konversi ("Gabung Sekarang") */
         black: "bg-(--color-ink) text-white border-(--color-ink)",
         /** Outlined teks gelap — ("Masuk") */
         "outline-dark":
           "bg-transparent text-(--color-text-black) border-(--color-text-black)",
-        /** Inverted di atas House Green — putih + teks Green Accent */
+        /** Inverted di atas brand deep — putih + teks brand accent */
         inverted:
-          "bg-white text-(--color-green-accent) border-white",
-        /** Outlined putih di atas House Green */
+          "bg-white text-(--color-brand-accent) border-white",
+        /** Outlined putih di atas brand deep */
         "on-dark": "bg-transparent text-white border-white",
       },
       size: {
