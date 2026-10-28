@@ -11,6 +11,7 @@ import { SAYAMA, waLink, WA_MESSAGES } from "@/lib/sayama";
 const NAV_LINKS = [
   { href: "/#selayang-pandang", label: "Tentang" },
   { href: "/#program", label: "Program" },
+  { href: "/#gallery", label: "Galeri" },
   { href: "/#donasi", label: "Donasi" },
   { href: "/#kontak", label: "Kontak" },
 ];

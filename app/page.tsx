@@ -4,6 +4,7 @@ import { AssistantChat } from "@/components/layout/assistant-chat";
 import { HeroSection } from "@/components/sections/hero-section";
 import { SelayangPandangSection } from "@/components/sections/selayang-pandang-section";
 import { ProgramSection } from "@/components/sections/program-section";
+import { GallerySection } from "@/components/sections/gallery-section";
 import { DonasiSection } from "@/components/sections/donasi-section";
 import { LokasiSection } from "@/components/sections/lokasi-section";
 
@@ -15,6 +16,7 @@ export default function HomePage() {
         <HeroSection />
         <SelayangPandangSection />
         <ProgramSection />
+        <GallerySection />
         <DonasiSection />
         <LokasiSection />
       </main>

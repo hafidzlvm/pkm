@@ -1,0 +1,437 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - navigation [ref=f1e3]:
+      - link "Beranda Yayasan Sahabat Yatim Mandiri" [ref=f1e4] [cursor=pointer]:
+        - /url: /
+        - img "Logo Yayasan Sahabat Yatim Mandiri" [ref=f1e5]
+        - generic [ref=f1e6]:
+          - generic [ref=f1e7]: SAYAMA
+          - generic [ref=f1e8]: Yatim & Dhu'afa
+      - list [ref=f1e9]:
+        - listitem [ref=f1e10]:
+          - link "Tentang" [ref=f1e11] [cursor=pointer]:
+            - /url: /#selayang-pandang
+        - listitem [ref=f1e12]:
+          - link "Program" [ref=f1e13] [cursor=pointer]:
+            - /url: /#program
+        - listitem [ref=f1e14]:
+          - link "Galeri" [ref=f1e15] [cursor=pointer]:
+            - /url: /#gallery
+        - listitem [ref=f1e16]:
+          - link "Donasi" [ref=f1e17] [cursor=pointer]:
+            - /url: /#donasi
+        - listitem [ref=f1e18]:
+          - link "Kontak" [ref=f1e19] [cursor=pointer]:
+            - /url: /#kontak
+      - generic [ref=f1e20]:
+        - link "Donasi" [ref=f1e21] [cursor=pointer]:
+          - /url: https://wa.me/6281212734620?text=Assalamu'alaikum%2C%20saya%20ingin%20menanyakan%20cara%20berdonasi%20ke%20Yayasan%20Sahabat%20Yatim%20Mandiri.
+        - link "Tanya Kami" [ref=f1e22] [cursor=pointer]:
+          - /url: https://wa.me/6281294209443?text=Assalamu'alaikum%2C%20saya%20ingin%20bertanya%20tentang%20program%20Yayasan%20Sahabat%20Yatim%20Mandiri.
+  - main [ref=f1e25]:
+    - generic [ref=f1e27]:
+      - generic [ref=f1e28]:
+        - heading "Mewujudkan Harapan & Cita-Cita Yatim dan Dhu'afa" [level=1] [ref=f1e29]
+        - paragraph [ref=f1e30]: Yayasan Sahabat Yatim Mandiri (SAYAMA) mengasuh, mendidik, dan membina anak-anak yatim dan dhu'afa di dua asrama LKSA di Tangerang Selatan — menuju generasi yang sehat, cerdas, mandiri, dan mulia.
+        - generic [ref=f1e31]:
+          - link "Tunaikan Donasi Sekarang" [ref=f1e32] [cursor=pointer]:
+            - /url: https://wa.me/6281212734620?text=Assalamu'alaikum%2C%20saya%20ingin%20menanyakan%20cara%20berdonasi%20ke%20Yayasan%20Sahabat%20Yatim%20Mandiri.
+          - link "Layanan Jemput Donasi" [ref=f1e38] [cursor=pointer]:
+            - /url: https://wa.me/6281294209443?text=Assalamu'alaikum%2C%20saya%20ingin%20menggunakan%20layanan%20Jemput%20Donasi%20Yayasan%20Sahabat%20Yatim%20Mandiri.
+      - generic "Legalitas resmi" [ref=f1e44]:
+        - generic [ref=f1e51]:
+          - paragraph [ref=f1e52]: SK Menteri Hukum dan HAM
+          - paragraph [ref=f1e53]: AHU-0014418.AH.01.04. Tahun 2019
+        - generic [ref=f1e60]:
+          - paragraph [ref=f1e61]: NPWP Yayasan
+          - paragraph [ref=f1e62]: 93.074.959.3.453.000
+        - generic [ref=f1e71]:
+          - paragraph [ref=f1e72]: Amil ZISWAF
+          - paragraph [ref=f1e73]: Layanan jujur, amanah & profesional
+    - generic [ref=f1e75]:
+      - generic [ref=f1e76]:
+        - generic [ref=f1e77]:
+          - heading "Selayang Pandang" [level=2] [ref=f1e78]
+          - paragraph [ref=f1e79]:
+            - generic [ref=f1e80]: Yayasan
+            - generic [ref=f1e82]: Sahabat
+            - generic [ref=f1e84]: Yatim
+            - generic [ref=f1e86]: Mandiri
+            - generic [ref=f1e88]: adalah
+            - generic [ref=f1e90]: lembaga
+            - generic [ref=f1e92]: sosial
+            - generic [ref=f1e94]: yang
+            - generic [ref=f1e96]: membantu
+            - generic [ref=f1e98]: anak-anak
+            - generic [ref=f1e100]: dengan
+            - generic [ref=f1e102]: keterbatasan
+            - generic [ref=f1e104]: sosial
+            - generic [ref=f1e106]: ekonomi,
+            - generic [ref=f1e108]: baik
+            - generic [ref=f1e110]: statusnya
+            - generic [ref=f1e112]: yatim
+            - generic [ref=f1e114]: maupun
+            - generic [ref=f1e116]: dhu'afa.
+            - generic [ref=f1e118]: Keadaan
+            - generic [ref=f1e120]: yang
+            - generic [ref=f1e122]: mereka
+            - generic [ref=f1e124]: alami
+            - generic [ref=f1e126]: sangat
+            - generic [ref=f1e128]: berat
+            - generic [ref=f1e130]: dan
+            - generic [ref=f1e132]: tidak
+            - generic [ref=f1e134]: bisa
+            - generic [ref=f1e136]: dipikul
+            - generic [ref=f1e138]: sendirian
+            - generic [ref=f1e140]: —
+            - generic [ref=f1e142]: karena
+            - generic [ref=f1e144]: itu
+            - generic [ref=f1e146]: kita
+            - generic [ref=f1e148]: wajib
+            - generic [ref=f1e150]: peduli
+            - generic [ref=f1e152]: pada
+            - generic [ref=f1e154]: keberlangsungan
+            - generic [ref=f1e156]: hidup
+            - generic [ref=f1e158]: mereka.
+            - generic [ref=f1e160]: Bersama
+            - generic [ref=f1e162]: SAYAMA,
+            - generic [ref=f1e164]: para
+            - generic [ref=f1e166]: dermawan
+            - generic [ref=f1e168]: berpartisipasi
+            - generic [ref=f1e170]: mewujudkan
+            - generic [ref=f1e172]: harapan
+            - generic [ref=f1e174]: dan
+            - generic [ref=f1e176]: cita-cita
+            - generic [ref=f1e178]: mereka,
+            - generic [ref=f1e180]: memenuhi
+            - generic [ref=f1e182]: kebutuhan
+            - generic [ref=f1e184]: hidup
+            - generic [ref=f1e186]: serta
+            - generic [ref=f1e188]: keberlangsungan
+            - generic [ref=f1e190]: pendidikan.
+        - generic [ref=f1e192]:
+          - paragraph [ref=f1e196]: “Tahukah kamu orang-orang yang mendustakan agama? Yaitu orang-orang yang menghardik anak yatim, dan tidak mendorong untuk memberi makan anak yatim.”
+          - paragraph [ref=f1e197]: "QS Al-Ma'un: 1–3"
+      - generic [ref=f1e198]:
+        - button "Visi & Misi" [pressed] [ref=f1e199] [cursor=pointer]
+        - button "Dasar Pemikiran" [ref=f1e200] [cursor=pointer]
+      - generic [ref=f1e201]:
+        - generic [ref=f1e203]:
+          - heading "Visi" [level=3] [ref=f1e204]
+          - paragraph [ref=f1e205]:
+            - generic [ref=f1e206]: Terwujudnya
+            - generic [ref=f1e207]: anak-anak
+            - generic [ref=f1e208]: yatim
+            - generic [ref=f1e209]: dan
+            - generic [ref=f1e210]: dhu'afa
+            - generic [ref=f1e211]: yang
+            - generic [ref=f1e212]: terdidik,
+            - generic [ref=f1e213]: kreatif,
+            - generic [ref=f1e214]: berakhlak
+            - generic [ref=f1e215]: mulia
+            - generic [ref=f1e216]: dan
+            - generic [ref=f1e217]: mandiri.
+          - generic [ref=f1e222]:
+            - paragraph [ref=f1e223]: Yayasan Sahabat Yatim Mandiri
+            - paragraph [ref=f1e224]: "SK Menteri Hukum dan HAM: AHU-0014418.AH.01.04. Tahun 2019"
+            - paragraph [ref=f1e225]: "NPWP: 93.074.959.3.453.000"
+        - generic [ref=f1e226]:
+          - generic [ref=f1e228]:
+            - generic [ref=f1e229]: "1"
+            - paragraph [ref=f1e230]: Mewujudkan anak-anak yatim dan dhu'afa yang sejahtera.
+          - generic [ref=f1e232]:
+            - generic [ref=f1e233]: "2"
+            - paragraph [ref=f1e234]: Menghantarkan mereka menjadi generasi yang membanggakan, dengan pendidikan berkualitas serta berakhlak mulia.
+          - generic [ref=f1e236]:
+            - generic [ref=f1e237]: "3"
+            - paragraph [ref=f1e238]: Menjadi amil Zakat, Infaq, Shodaqoh, dan Wakaf dengan layanan yang jujur, amanah, dan profesional.
+    - generic [ref=f1e240]:
+      - generic [ref=f1e241]:
+        - heading "Pilar Program Unggulan" [level=2] [ref=f1e242]
+        - paragraph [ref=f1e243]: Mewujudkan visi dan misi SAYAMA melalui tiga pilar — pengasuhan, pendidikan & Qur'an, serta santunan dan bakti sosial.
+      - generic [ref=f1e244]:
+        - article [ref=f1e245]:
+          - generic [ref=f1e246]:
+            - generic [ref=f1e252]:
+              - paragraph [ref=f1e253]: Pilar 1
+              - heading "Pengasuhan" [level=3] [ref=f1e254]
+            - paragraph [ref=f1e255]: Asrama LKSA Yatim & Dhu'afa — anak-anak di asuh, dididik, dan dibina untuk membentuk pribadi yang cerdas, kreatif, jujur, mandiri, dan berakhlak mulia.
+            - blockquote [ref=f1e257]:
+              - text: "Dari Anas bin Malik, Rasulullah bersabda: siapa yang memelihara dua anak gadis kecil hingga dewasa, maka aku akan datang bersamanya pada hari kiamat, seraya menunjukkan kedua jariku (sedekat dua jari)."
+              - generic [ref=f1e258]: HR. Muslim — keutamaan mengasuh anak yatim
+        - article [ref=f1e259]:
+          - generic [ref=f1e260]:
+            - generic [ref=f1e266]:
+              - paragraph [ref=f1e267]: Pilar 2
+              - heading "Pendidikan & Qur'an" [level=3] [ref=f1e268]
+            - paragraph [ref=f1e269]: Menjunjung nilai pendidikan umum dan agama sebagai dasar pribadi dinamis dan berbudi luhur.
+            - generic [ref=f1e270]:
+              - list [ref=f1e271]:
+                - listitem [ref=f1e272]:
+                  - paragraph [ref=f1e273]: SAYAMA Pintar
+                  - paragraph [ref=f1e274]: Gratis sekolah untuk yatim dan dhu'afa yang mukim, serta beasiswa bagi anak yatim dhu'afa non-mukim yang berprestasi.
+                - listitem [ref=f1e275]:
+                  - paragraph [ref=f1e276]: SAYAMA Kreatif
+                  - paragraph [ref=f1e277]: Pembinaan Character Building dan Life Skill bagi anak yatim & dhu'afa, mukim maupun non-mukim, yang siap belajar dan ingin mengubah Indonesia untuk lebih maju.
+                - listitem [ref=f1e278]:
+                  - paragraph [ref=f1e279]: SAYAMA Mandiri
+                  - paragraph [ref=f1e280]: Pembinaan khusus membentuk mental mandiri lewat pelatihan life skill — sembilan karakter utama di bawah.
+                - listitem [ref=f1e281]:
+                  - paragraph [ref=f1e282]: Tahsin & Tahfidzul Qur'an
+                  - paragraph [ref=f1e283]: Perbaikan bacaan Al-Qur'an sesuai tajwid, dan program hafalan dengan target yang ditetapkan yayasan.
+              - generic [ref=f1e284]:
+                - button "SAYAMA Mandiri — 9 indikator karakter Ciri pribadi mandiri yang dibentuk pelatihan life skill Lihat 9 indikator" [ref=f1e285] [cursor=pointer]:
+                  - generic [ref=f1e286]:
+                    - text: SAYAMA Mandiri — 9 indikator karakter
+                    - generic [ref=f1e287]: Ciri pribadi mandiri yang dibentuk pelatihan life skill
+                  - generic [ref=f1e288]: Lihat 9 indikator
+                - list [ref=f1e289]:
+                  - listitem [ref=f1e290]:
+                    - generic [ref=f1e291]: "01"
+                    - text: Rasa tanggung jawab
+                  - listitem [ref=f1e292]:
+                    - generic [ref=f1e293]: "02"
+                    - text: Mampu bekerja sendiri
+                  - listitem [ref=f1e294]:
+                    - generic [ref=f1e295]: "03"
+                    - text: Sikap kreatif
+                  - listitem [ref=f1e296]:
+                    - generic [ref=f1e297]: "04"
+                    - text: Menguasai keterampilan sesuai bidang kerja
+                  - listitem [ref=f1e298]:
+                    - generic [ref=f1e299]: "05"
+                    - text: Menghargai waktu
+                  - listitem [ref=f1e300]:
+                    - generic [ref=f1e301]: "06"
+                    - text: Terampil menyelesaikan persoalan
+                  - listitem [ref=f1e302]:
+                    - generic [ref=f1e303]: "07"
+                    - text: Puas dengan pekerjaannya
+                  - listitem [ref=f1e304]:
+                    - generic [ref=f1e305]: "08"
+                    - text: Percaya diri
+                  - listitem [ref=f1e306]:
+                    - generic [ref=f1e307]: "09"
+                    - text: Mampu melayani diri sendiri
+        - article [ref=f1e308]:
+          - generic [ref=f1e309]:
+            - generic [ref=f1e314]:
+              - paragraph [ref=f1e315]: Pilar 3
+              - heading "Santunan & Baksos" [level=3] [ref=f1e316]
+            - paragraph [ref=f1e317]: "Menjangkau dhu'afa di luar asrama: santunan pendidikan, janda & lansia, dan tanggap bencana."
+            - list [ref=f1e319]:
+              - listitem [ref=f1e320]:
+                - paragraph [ref=f1e321]: Santunan Pendidikan
+                - paragraph [ref=f1e322]: Bantuan biaya pendidikan bagi anak yatim & dhu'afa, baik yang mukim maupun non-mukim.
+              - listitem [ref=f1e323]:
+                - paragraph [ref=f1e324]: Santunan Janda & Lansia
+                - paragraph [ref=f1e325]: Santunan rutin untuk janda dan lansia yang sudah tidak produktif.
+              - listitem [ref=f1e326]:
+                - paragraph [ref=f1e327]: Bakti Sosial
+                - paragraph [ref=f1e328]: Bantuan kemanusiaan akibat bencana alam dan musibah lainnya.
+    - generic [ref=f1e330]:
+      - generic [ref=f1e331]:
+        - heading "Galeri Kegiatan" [level=2] [ref=f1e332]
+        - paragraph [ref=f1e333]: Momen kebersamaan donatur, relawan, dan anak asrama dalam kegiatan LKSA SAYAMA di Pamulang.
+      - generic [ref=f1e334]:
+        - 'button "Perbesar foto: Kebersamaan donatur & anak asrama" [ref=f1e336]':
+          - img "Foto bersama donatur dan anak asrama di ruang kegiatan" [ref=f1e338]
+          - generic [ref=f1e345]:
+            - generic [ref=f1e346]: Kebersamaan donatur & anak asrama
+            - generic [ref=f1e347]: Foto 1
+        - 'button "Perbesar foto: Penyerahan tas sekolah" [ref=f1e349]':
+          - img "Penyerahan tas sekolah kepada anak asrama" [ref=f1e351]
+          - generic [ref=f1e358]:
+            - generic [ref=f1e359]: Penyerahan tas sekolah
+            - generic [ref=f1e360]: Foto 2
+        - 'button "Perbesar foto: Doa di serambi masjid" [ref=f1e362]':
+          - img "Anak asrama berdoa di tangga serambi masjid" [ref=f1e364]
+          - generic [ref=f1e371]:
+            - generic [ref=f1e372]: Doa di serambi masjid
+            - generic [ref=f1e373]: Foto 3
+        - 'button "Perbesar foto: Kegiatan bersama relawan" [ref=f1e375]':
+          - img "Foto bersama relawan dan anak asrama di depan banner LKSA Sahabat Yatim Mandiri" [ref=f1e377]
+          - generic [ref=f1e384]:
+            - generic [ref=f1e385]: Kegiatan bersama relawan
+            - generic [ref=f1e386]: Foto 4
+        - 'button "Perbesar foto: Tausiyah generasi beradab" [ref=f1e388]':
+          - img "Tausiyah kiat sukses mendampingi anak menjadi generasi beradab" [ref=f1e390]
+          - generic [ref=f1e397]:
+            - generic [ref=f1e398]: Tausiyah generasi beradab
+            - generic [ref=f1e399]: Foto 5
+        - 'button "Perbesar foto: Doa bersama di ruang kegiatan" [ref=f1e401]':
+          - img "Doa bersama anak asrama dan donatur di ruang kegiatan" [ref=f1e403]
+          - generic [ref=f1e410]:
+            - generic [ref=f1e411]: Doa bersama di ruang kegiatan
+            - generic [ref=f1e412]: Foto 6
+        - 'button "Perbesar foto: Penyerahan goodie bag" [ref=f1e414]':
+          - img "Anak asrama memegang goodie bag bersama donatur" [ref=f1e416]
+          - generic [ref=f1e423]:
+            - generic [ref=f1e424]: Penyerahan goodie bag
+            - generic [ref=f1e425]: Foto 7
+        - 'button "Perbesar foto: Doa bersama donatur" [ref=f1e427]':
+          - img "Doa bersama donatur dan anak asrama" [ref=f1e429]
+          - generic [ref=f1e436]:
+            - generic [ref=f1e437]: Doa bersama donatur
+            - generic [ref=f1e438]: Foto 8
+        - 'button "Perbesar foto: Doa di teras asrama" [ref=f1e440]':
+          - img "Doa bersama di teras asrama" [ref=f1e442]
+          - generic [ref=f1e449]:
+            - generic [ref=f1e450]: Doa di teras asrama
+            - generic [ref=f1e451]: Foto 9
+    - generic [ref=f1e453]:
+      - generic [ref=f1e454]:
+        - heading "Kanal Donasi & Layanan ZISWAF" [level=2] [ref=f1e455]
+        - paragraph [ref=f1e456]: Menunaikan Zakat, Infaq, Shodaqoh, dan Wakaf melalui yayasan resmi — diterima dan didistribusikan kepada mustahik yang berhak.
+      - tablist "Jenis layanan ZISWAF" [ref=f1e457]:
+        - tab "Zakat" [selected] [ref=f1e458] [cursor=pointer]
+        - tab "Infaq" [ref=f1e459] [cursor=pointer]
+        - tab "Shodaqoh" [ref=f1e460] [cursor=pointer]
+        - tab "Wakaf" [ref=f1e461] [cursor=pointer]
+      - paragraph [ref=f1e462]: Menunaikan zakat mal dan zakat fitrah; kami terima dan salurkan kepada mustahik yang berhak.
+      - generic [ref=f1e463]:
+        - generic [ref=f1e464]:
+          - generic [ref=f1e466]:
+            - generic [ref=f1e470]:
+              - paragraph [ref=f1e471]: BSI
+              - paragraph [ref=f1e472]: Bank Syariah Indonesia
+            - paragraph [ref=f1e473]: 161252208-4
+            - paragraph [ref=f1e474]: a.n. Yayasan Sahabat Yatim Mandiri
+            - button "Salin nomor rekening" [ref=f1e475] [cursor=pointer]
+          - generic [ref=f1e480]:
+            - generic [ref=f1e484]:
+              - paragraph [ref=f1e485]: BRI
+              - paragraph [ref=f1e486]: Bank Rakyat Indonesia
+            - paragraph [ref=f1e487]: 1127 0100 0628 308
+            - paragraph [ref=f1e488]: a.n. Yayasan Sahabat Yatim Mandiri
+            - button "Salin nomor rekening" [ref=f1e489] [cursor=pointer]
+        - generic [ref=f1e494]:
+          - generic [ref=f1e501]:
+            - heading "Jemput Donasi" [level=3] [ref=f1e502]
+            - paragraph [ref=f1e503]: Tim kami menjangkau lokasi Anda untuk menerima penunaian ZISWAF dan donasi lainnya.
+          - generic [ref=f1e504]:
+            - link "0812-1273-4620" [ref=f1e505] [cursor=pointer]:
+              - /url: https://wa.me/6281212734620?text=Assalamu'alaikum%2C%20saya%20ingin%20menggunakan%20layanan%20Jemput%20Donasi%20Yayasan%20Sahabat%20Yatim%20Mandiri.
+            - link "0812-9420-9443" [ref=f1e508] [cursor=pointer]:
+              - /url: https://wa.me/6281294209443?text=Assalamu'alaikum%2C%20saya%20ingin%20menggunakan%20layanan%20Jemput%20Donasi%20Yayasan%20Sahabat%20Yatim%20Mandiri.
+    - generic [ref=f1e512]:
+      - heading "Lokasi & Kontak" [level=2] [ref=f1e513]
+      - paragraph [ref=f1e514]: Dua asrama LKSA sekaligus kantor pelayanan donasi ZISWAF di Pamulang, Tangerang Selatan.
+      - generic [ref=f1e515]:
+        - generic [ref=f1e522]:
+          - heading "Asrama 1" [level=3] [ref=f1e523]
+          - paragraph [ref=f1e524]: Jl. Ketapang 3 No.1B, RT 006 RW 006, Kel. Pamulang Barat, Kec. Pamulang, Kota Tangerang Selatan, Banten
+          - link "Buka di Google Maps" [ref=f1e525] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Jl.%20Ketapang%203%20No.1B%2C%20RT%20006%20RW%20006%2C%20Kel.%20Pamulang%20Barat%2C%20Kec.%20Pamulang%2C%20Kota%20Tangerang%20Selatan%2C%20Banten
+        - generic [ref=f1e534]:
+          - heading "Asrama 2" [level=3] [ref=f1e535]
+          - paragraph [ref=f1e536]: Jl. Bali Raya Blok S7 No.12, RT 06 RW 06, Kel. Pondok Benda, Pamulang, Tangerang Selatan
+          - link "Buka di Google Maps" [ref=f1e537] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Jl.%20Bali%20Raya%20Blok%20S7%20No.12%2C%20RT%2006%20RW%2006%2C%20Kel.%20Pondok%20Benda%2C%20Pamulang%2C%20Tangerang%20Selatan
+      - generic [ref=f1e540]:
+        - link "0812-1273-4620" [ref=f1e541] [cursor=pointer]:
+          - /url: tel:+6281212734620
+        - link "0812-9420-9443" [ref=f1e544] [cursor=pointer]:
+          - /url: tel:+6281294209443
+      - generic [ref=f1e548]:
+        - generic [ref=f1e549]:
+          - generic [ref=f1e550]: Sehat
+          - generic [ref=f1e552]: Cerdas
+          - generic [ref=f1e554]: Mandiri
+          - generic [ref=f1e556]: Mulia
+          - generic [ref=f1e558]: Amanah
+          - generic [ref=f1e560]: Berakhlak Mulia
+          - generic [ref=f1e562]: Amil ZISWAF
+          - generic [ref=f1e564]: Pengasuhan Yatim & Dhu'afa
+          - generic [ref=f1e566]: Pendidikan & Tahfidz Qur'an
+          - generic [ref=f1e568]: Santunan Janda & Lansia
+          - generic [ref=f1e570]: Bakti Sosial
+          - generic [ref=f1e572]: Jemput Donasi
+        - generic [ref=f1e574]:
+          - generic [ref=f1e575]: Sehat
+          - generic [ref=f1e577]: Cerdas
+          - generic [ref=f1e579]: Mandiri
+          - generic [ref=f1e581]: Mulia
+          - generic [ref=f1e583]: Amanah
+          - generic [ref=f1e585]: Berakhlak Mulia
+          - generic [ref=f1e587]: Amil ZISWAF
+          - generic [ref=f1e589]: Pengasuhan Yatim & Dhu'afa
+          - generic [ref=f1e591]: Pendidikan & Tahfidz Qur'an
+          - generic [ref=f1e593]: Santunan Janda & Lansia
+          - generic [ref=f1e595]: Bakti Sosial
+          - generic [ref=f1e597]: Jemput Donasi
+      - paragraph [ref=f1e599]:
+        - text: "Ikuti kami di Facebook:"
+        - link "Yayasan Sahabat Yatim Mandiri" [ref=f1e602] [cursor=pointer]:
+          - /url: https://www.facebook.com/people/Yayasan-Sahabat-Yatim-Mandiri/100076269524498/
+  - contentinfo [ref=f1e603]:
+    - generic [ref=f1e604]:
+      - generic [ref=f1e605]:
+        - generic [ref=f1e606]:
+          - paragraph [ref=f1e607]:
+            - generic [ref=f1e609]: SAYAMA
+          - paragraph [ref=f1e610]: Yayasan Sahabat Yatim Mandiri — Asrama (LKSA) Yatim & Dhu'afa. Sehat, Cerdas, Mandiri, dan Mulia.
+          - paragraph [ref=f1e611]: "SK Menteri Hukum dan HAM: AHU-0014418.AH.01.04. Tahun 2019NPWP: 93.074.959.3.453.000"
+        - navigation "Program" [ref=f1e612]:
+          - heading "Program" [level=3] [ref=f1e613]
+          - list [ref=f1e614]:
+            - listitem [ref=f1e615]:
+              - link "Pengasuhan" [ref=f1e616] [cursor=pointer]:
+                - /url: /#program
+            - listitem [ref=f1e617]:
+              - link "Pendidikan & Qur'an" [ref=f1e618] [cursor=pointer]:
+                - /url: /#program
+            - listitem [ref=f1e619]:
+              - link "Santunan & Baksos" [ref=f1e620] [cursor=pointer]:
+                - /url: /#program
+            - listitem [ref=f1e621]:
+              - link "Layanan ZISWAF" [ref=f1e622] [cursor=pointer]:
+                - /url: /#donasi
+        - navigation "Kontak" [ref=f1e623]:
+          - heading "Kontak" [level=3] [ref=f1e624]
+          - list [ref=f1e625]:
+            - listitem [ref=f1e626]:
+              - link "0812-1273-4620" [ref=f1e627] [cursor=pointer]:
+                - /url: tel:+6281212734620
+              - generic [ref=f1e628]: WhatsApp 1
+            - listitem [ref=f1e629]:
+              - link "0812-9420-9443" [ref=f1e630] [cursor=pointer]:
+                - /url: tel:+6281294209443
+              - generic [ref=f1e631]: WhatsApp 2
+            - listitem [ref=f1e632]:
+              - link "Yayasan Sahabat Yatim Mandiri" [ref=f1e633] [cursor=pointer]:
+                - /url: https://www.facebook.com/people/Yayasan-Sahabat-Yatim-Mandiri/100076269524498/
+        - generic [ref=f1e636]:
+          - heading "Asrama" [level=3] [ref=f1e637]
+          - list [ref=f1e638]:
+            - listitem [ref=f1e639]:
+              - generic [ref=f1e643]: Asrama 1 — Jl. Ketapang 3 No.1B, RT 006 RW 006, Kel. Pamulang Barat, Kec. Pamulang, Kota Tangerang Selatan, Banten
+            - listitem [ref=f1e644]:
+              - generic [ref=f1e648]: Asrama 2 — Jl. Bali Raya Blok S7 No.12, RT 06 RW 06, Kel. Pondok Benda, Pamulang, Tangerang Selatan
+      - generic [ref=f1e649]:
+        - paragraph [ref=f1e650]: © 2026 Yayasan Sahabat Yatim Mandiri. Semua hak dilindungi.
+        - paragraph [ref=f1e651]: Dikembangkan oleh tim Program Kreativitas Mahasiswa — Universitas Pamulang.
+  - button "Buka asisten SAYAMA" [ref=f1e652] [cursor=pointer]
+  - dialog [aria-hidden]:
+    - generic:
+      - generic:
+        - generic:
+          - paragraph: Asisten SAYAMA
+          - paragraph: Asisten virtual Yayasan Sahabat Yatim Mandiri
+    - generic:
+      - generic:
+        - generic:
+          - paragraph: Assalamu'alaikum! Saya Asisten SAYAMA. Tanyakan apa saja tentang yayasan, program SAYAMA Pintar/Kreatif/Mandiri, Tahsin & Tahfidz, atau cara menyalurkan donasi ZISWAF.
+    - generic:
+      - button: Cara berdonasi?
+      - button: Apa itu SAYAMA Pintar?
+      - button: Alamat asrama?
+      - button: Jemput donasi
+    - link:
+      - /url: https://wa.me/6281212734620?text=Assalamu'alaikum%2C%20saya%20ingin%20bertanya%20tentang%20program%20Yayasan%20Sahabat%20Yatim%20Mandiri.
+      - text: Ngobrol dengan pengurus via WhatsApp
+    - generic:
+      - textbox:
+        - /placeholder: Tulis pertanyaan…
+      - button [disabled]
+  - alert [ref=f1e656]
