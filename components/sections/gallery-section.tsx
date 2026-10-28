@@ -146,7 +146,7 @@ export function GallerySection() {
               <button
                 type="button"
                 onClick={() => openAt(i)}
-                aria-label={`Perbesar foto: ${item.caption}`}
+                aria-label={`Perbesar foto ${i + 1}`}
                 className="press group block w-full overflow-hidden rounded-(--radius-card) bg-white text-left shadow-card focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--color-brand-accent)"
               >
                 <span className="relative block overflow-hidden">
@@ -160,14 +160,6 @@ export function GallerySection() {
                   />
                   <span className="absolute top-3 right-3 flex size-9 items-center justify-center rounded-full bg-white text-(--color-brand) opacity-0 shadow-card transition-opacity duration-200 group-hover:opacity-100 group-focus-visible:opacity-100">
                     <Maximize2 className="size-4" aria-hidden />
-                  </span>
-                </span>
-                <span className="flex items-center justify-between gap-3 px-4 py-3">
-                  <span className="text-sm font-semibold text-(--color-text-black)">
-                    {item.caption}
-                  </span>
-                  <span className="shrink-0 text-xs font-semibold tracking-loose uppercase text-(--color-text-black-soft)">
-                    Foto {i + 1}
                   </span>
                 </span>
               </button>
